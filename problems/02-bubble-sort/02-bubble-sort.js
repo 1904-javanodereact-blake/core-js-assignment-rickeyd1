@@ -22,11 +22,3 @@ function bubbleSort(numArray) {
     }
     return numArray;
 }
-
-let worstArr = [900,800,700,600,500,400,300,200,100];
-let bestArr = [1,2,3,4,5,6,7,8,9];
-let avgArr = [80,50,10,20,90,70,60,40,30];
-
-console.log(bubbleSort(worstArr));
-console.log(bubbleSort(bestArr));
-console.log(bubbleSort(avgArr));
