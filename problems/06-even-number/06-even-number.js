@@ -13,5 +13,3 @@ function isEven(someNum) {
     }
     return false;
 }
-
-console.log(isEven(4));
