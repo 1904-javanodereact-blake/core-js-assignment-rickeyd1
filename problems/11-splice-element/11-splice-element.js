@@ -5,3 +5,5 @@ Splice the element at the provided index in the array.
 function spliceElement(someArr, index) {
   
 }
+
+// Remove element at the specified index.
