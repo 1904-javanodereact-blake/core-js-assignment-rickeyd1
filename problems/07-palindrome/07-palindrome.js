@@ -12,6 +12,3 @@ function isPalindrome(someStr) {
     }
     return true;
 }
-
-let myStr = 'racecar';
-console.log(isPalindrome(myStr));

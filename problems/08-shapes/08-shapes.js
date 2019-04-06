@@ -50,25 +50,33 @@ function printShape(shape, height, character) {
         let resStrDown;
         let counter = 0;
         let halfLen = Math.floor(height/2);
+        
+        // Prints the upper half of the diamond
         for(let i = 1; i < height; i += 2){1
           resStrUp = "";
-
+          
+          // Adds spaces for formatting
           for(let a = 0; a < halfLen; a++){
             resStrUp += " ";
           }
-
           halfLen--;
+
           for(let u = 0; u < i; u++){
             resStrUp += character;
           }
           console.log(resStrUp);
         }
+
+        // Prints the lower half of the diamond
         for(let j = height; j > 0; j -= 2){
           resStrDown = "";
+
+          // Adds spaces for formatting
           for(let b = 0; b < counter; b++){
             resStrDown += " ";
           }
           counter++;
+
           for(let d = 0; d < j; d++){
             resStrDown += character;
           }
